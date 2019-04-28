@@ -1,7 +1,58 @@
 var APP_DATA = {
   "scenes": [
     {
-      "id": "0-sala-jzyk-polski",
+      "id": "0-sala-gimnastyczna",
+      "name": "Sala Gimnastyczna",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1920,
+      "initialViewParameters": {
+        "yaw": -3.135839235573238,
+        "pitch": 0.058522795050636844,
+        "fov": 1.4095469020700806
+      },
+      "linkHotspots": [
+        {
+          "yaw": 2.6122210788129347,
+          "pitch": 0.07754839705322425,
+          "rotation": 0,
+          "target": "3-szatnia"
+        },
+        {
+          "yaw": 2.7126357731789668,
+          "pitch": 0.07834192750954827,
+          "rotation": 0,
+          "target": "4-pitro-1-prawa-cz"
+        }
+      ],
+      "infoHotspots": [
+        {
+          "yaw": 3.116130620461459,
+          "pitch": 0.07634427559517043,
+          "title": "Witaj",
+          "text": "Witaj w prezentacji Szkoły Podstawowej Nr 8 im. Dar Górników w 360°.<br>Prezentacja ma na celu przybliżejnie naszej szkoły wszystkim zainteresowanym.<br>Projekt został stworzony w Marzipano (http://www.marzipano.net/).<br><div>Zdjęcia wykonali: Mikołaj Kubal oraz Krystian Pietruś</div>"
+        }
+      ]
+    },
+    {
+      "id": "1-sala-jzyk-polski",
       "name": "Sala Język Polski",
       "levels": [
         {
@@ -39,7 +90,7 @@ var APP_DATA = {
       "infoHotspots": []
     },
     {
-      "id": "1-sala-przyrodnicza",
+      "id": "2-sala-przyrodnicza",
       "name": "Sala Przyrodnicza",
       "levels": [
         {
@@ -72,50 +123,6 @@ var APP_DATA = {
           "pitch": 0.07565332259070345,
           "rotation": 0,
           "target": "8-pitro-2-rodkowa-cz"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "2-sala-gimnastyczna",
-      "name": "Sala Gimnastyczna",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1920,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 2.6122210788129347,
-          "pitch": 0.07754839705322425,
-          "rotation": 0,
-          "target": "3-szatnia"
-        },
-        {
-          "yaw": 2.732757426204447,
-          "pitch": 0.07753713508648197,
-          "rotation": 0,
-          "target": "4-pitro-1-prawa-cz"
         }
       ],
       "infoHotspots": []
@@ -215,7 +222,7 @@ var APP_DATA = {
           "yaw": 1.1295608409491624,
           "pitch": 0.528003646374394,
           "rotation": 0,
-          "target": "2-sala-gimnastyczna"
+          "target": "0-sala-gimnastyczna"
         }
       ],
       "infoHotspots": []
@@ -259,7 +266,7 @@ var APP_DATA = {
           "yaw": 1.9807706864645995,
           "pitch": 0.07994901955398959,
           "rotation": 6.283185307179586,
-          "target": "0-sala-jzyk-polski"
+          "target": "1-sala-jzyk-polski"
         },
         {
           "yaw": 1.8550817355819111,
@@ -321,7 +328,7 @@ var APP_DATA = {
           "yaw": 1.628546496524847,
           "pitch": 0.48042644084270236,
           "rotation": 0,
-          "target": "2-sala-gimnastyczna"
+          "target": "0-sala-gimnastyczna"
         }
       ],
       "infoHotspots": []
@@ -409,7 +416,7 @@ var APP_DATA = {
           "yaw": 1.2427430138396947,
           "pitch": 0.11226055538702795,
           "rotation": 0,
-          "target": "1-sala-przyrodnicza"
+          "target": "2-sala-przyrodnicza"
         },
         {
           "yaw": 1.451024858171257,
